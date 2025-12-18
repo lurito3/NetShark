@@ -85,7 +85,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/karasulib/netshark.git
+git clone https://github.com/kalachbeg/netshark.git
 cd netshark
 
 # Install dependencies
@@ -102,7 +102,7 @@ python netshark.py --help
 
 ```powershell
 # Clone the repository
-git clone https://github.com/karasulib/netshark.git
+git clone https://github.com/kalachbeg/netshark.git
 cd netshark
 
 # Install Python 3.7+ if not already installed
@@ -384,8 +384,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Need help? Have questions? Found a bug?**
 
-[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-lightgrey?style=flat-square&logo=github)](https://github.com/karasulib/netshark/issues)
-[![GitHub Discussions](https://img.shields.io/badge/GitHub-Discussions-lightgrey?style=flat-square&logo=github)](https://github.com/karasulib/netshark/discussions)
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-lightgrey?style=flat-square&logo=github)](https://github.com/kalachbeg/netshark/issues)
+[![GitHub Discussions](https://img.shields.io/badge/GitHub-Discussions-lightgrey?style=flat-square&logo=github)](https://github.com/kalachbeg/netshark/discussions)
 
 </div>
 
