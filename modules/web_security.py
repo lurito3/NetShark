@@ -30,7 +30,7 @@ class WebSecurity:
         
         try:
             results['ip'] = socket.gethostbyname(self.domain)
-        except:
+        except Exception:
             results['ip'] = 'Unknown'
         
         try:
@@ -79,7 +79,7 @@ class WebSecurity:
                             if expires < datetime.now():
                                 ssl_info['valid'] = False
                                 ssl_info['error'] = 'Expired'
-                        except:
+                        except Exception:
                             ssl_info['expires'] = not_after
                     
                     if cipher:

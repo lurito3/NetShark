@@ -49,7 +49,7 @@ class Colors:
             if sys.platform == 'win32':
                 sys.stdout.reconfigure(encoding='utf-8')
             print(banner)
-        except:
+        except Exception:
             print("NetShark - Security Scanner\nMulti-Purpose Security Analysis Tool\n")
     
     @staticmethod
