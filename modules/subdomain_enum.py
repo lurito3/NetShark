@@ -74,7 +74,7 @@ class SubdomainEnum:
                     if result:
                         self.found_subdomains.append(result)
                         print(f"{Colors.SUCCESS}✓ {result}{Colors.RESET}")
-                except:
+                except Exception:
                     pass
                 
                 if completed % 10 == 0 or completed == total:
@@ -103,13 +103,13 @@ class SubdomainEnum:
                 return full_domain
         except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer, dns.resolver.Timeout):
             pass
-        except:
+        except Exception:
             pass
         
         try:
             socket.gethostbyname(full_domain)
             return full_domain
-        except:
+        except Exception:
             pass
         
         return None

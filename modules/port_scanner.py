@@ -99,7 +99,7 @@ class PortScanner:
                             banner = self._grab_banner(sock, port)
                             if banner:
                                 result['banner'] = banner
-                        except:
+                        except Exception:
                             pass
                 sock.close()
             
@@ -112,7 +112,7 @@ class PortScanner:
                     result['state'] = 'open'
                 except socket.timeout:
                     result['state'] = 'open|filtered'
-                except:
+                except Exception:
                     result['state'] = 'closed'
                 finally:
                     sock.close()
@@ -145,7 +145,7 @@ class PortScanner:
             sock.send(probes[port])
             banner = sock.recv(1024).decode('utf-8', errors='ignore').strip()
             return banner[:100]
-        except:
+        except Exception:
             return ''
     
     def _process_result(self, result: Dict):
